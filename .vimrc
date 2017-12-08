@@ -49,3 +49,4 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeT
 set completeopt=longest,menu  "取消烦人的补全后显示描述
 let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 highlight Pmenu ctermfg=15 ctermbg=0 guifg=#000000 guibg=#111100
+map <F6> :YcmCompleter GoTo<CR>
