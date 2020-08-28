@@ -2,8 +2,9 @@ pipeline {
     agent any
     stages {
         stage('Stage 1') {
+            load env.JOB_BASE_NAME
             steps {
-                echo env.JOB_BASE_NAME
+                echo $num
             }
         }
     }
