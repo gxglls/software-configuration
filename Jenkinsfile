@@ -1,11 +1,6 @@
-pipeline {
-    agent any
-    stages {
+node {
         stage('Stage 1') {
             load env.JOB_BASE_NAME
-            steps {
-                echo $num
-            }
+            echo $num
         }
-    }
 }
