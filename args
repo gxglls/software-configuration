@@ -1,0 +1,2 @@
+def num = "1"
+load "./Jenkinsfile"
