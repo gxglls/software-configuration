@@ -1,6 +1,7 @@
 node {
         stage('Stage 1') {
-            load env.JOB_BASE_NAME
-            sh "echo $num"
+            // load env.JOB_BASE_NAME
+            // sh "echo $num"
+            sh "echo 123"
         }
 }
