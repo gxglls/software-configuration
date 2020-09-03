@@ -1,0 +1,2 @@
+load "common"
+env.FILE1 = "file1"
